@@ -3,7 +3,7 @@
 , pyproject-nix
 , lib
 , fetchurl
-, python39
+, python3
 , newScope
 , openocd
 , autoreconfHook
@@ -32,7 +32,7 @@ let
   };
 
   sdkArgs = {
-    python3 = python39;
+    python3 = python3;
   };
 
 in
